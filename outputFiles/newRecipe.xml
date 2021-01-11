@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<cccAnswer>
+	<system>http://getCccCocktail.net/</system>
+  	<query>d=Strawberry%20syrup|Apple%20juice&amp;u=Mint</query>
+	<retrieve>
+		<recipe>
+		  <title>Bora bora</title>
+		  <ingredients>
+		    <ingredient quantity="10" unit="cl" food="pineapple juice">10 cl pineapple juice</ingredient>
+		    <ingredient quantity="6" unit="cl" food="passion fruit juice">6 cl passion fruit juice</ingredient>
+		    <ingredient quantity="2" unit="cl" food="grenadine">2 cl grenadine syrup</ingredient>
+		    <ingredient quantity="1" unit="cl" food="lemon juice">1 cl lemon juice</ingredient>
+		    <ingredient quantity="3" unit="" food="ice cube">3 ice cubes</ingredient>
+		  </ingredients>
+		  <preparation>
+		    <step>Make this recipe in a shaker</step>
+		    <step>Serve in a glass over ice with a slice of orange</step>
+		  </preparation>
+	    </recipe>
+	</retrieve>
+	<reuse>
+		<adaptation>Replace pineapple juice (10 cl) with apple juice (10 cl). Replace grenadine (2 cl) with strawberry syrup (3cl)</adaptation>
+		<recipe>
+		  <title>Adaptation of Bora bora</title>
+		  <ingredients>
+		    <ingredient quantity="10" unit="cl" food="apple juice">10 cl apple juice</ingredient>
+		    <ingredient quantity="6" unit="cl" food="passion fruit juice">6 cl passion fruit juice</ingredient>
+		    <ingredient quantity="3" unit="cl" food="strawberry syrup">3 cl strawberry syrup</ingredient>
+		    <ingredient quantity="1" unit="cl" food="lemon juice">1 cl lemon juice</ingredient>
+		    <ingredient quantity="3" unit="" food="ice cube">3 ice cubes</ingredient>
+		  </ingredients>
+		  <preparation>
+		    <step>Make this recipe in a shaker</step>
+		    <step>Serve in a glass over ice with a slice of orange</step>
+		  </preparation>
+		</recipe>
+	</reuse>
+</cccAnswer>
